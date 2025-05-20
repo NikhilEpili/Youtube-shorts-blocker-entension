@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    width: 300px;
+    background-color: #f9f9f9;
+  }
+  
+  .popup-container {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #202124;
+  }
+  
+  .desc {
+    font-size: 13px;
+    color: #555;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  textarea:focus {
+    border-color: #1a73e8;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #1a73e8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #1558c2;
+  }
+  
+  .status-message {
+    font-size: 12px;
+    color: green;
+    height: 16px;
+  }
+  
